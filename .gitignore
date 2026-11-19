@@ -1,0 +1,89 @@
+
+# ==============================
+# Environment variables & Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python testing & coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# Flutter / Dart
+# ==============================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# ==============================
+# IDE & Editors
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# Operating System
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Logs & Temporary Files
+# ==============================
+*.log
+*.tmp
+*.temp
+*.bak
+
+# ==============================
+# Model Weights & Checkpoints
+# ==============================
+*.pt
+*.pth
+*.onnx
+*.h5
+*.keras
+*.ckpt
+*.safetensors
+*.bin
+
+# ==============================
+# Generated Files & Runtime Data
+# ==============================
+uploads/
+outputs/
+temp/
+tmp/
+cache/
